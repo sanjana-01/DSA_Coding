@@ -12,8 +12,8 @@ package com.Basics;
 //
 //        Output:
 //        No
-public class forloop {
-    static void isPrime(int n) {
+public class for_loop {
+    static int isPrime(int n) {
         int c=0;
         for(int i = 1; i <= n; i++) {
             // Your code here
@@ -21,9 +21,9 @@ public class forloop {
                 c++;
         }
         if(c==2)
-            System.out.println("Yes");
+            return 1;
         else
-            System.out.println("No");
+            return 0;
     }
 
     public static void main(String[] args) {

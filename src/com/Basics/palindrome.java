@@ -1,5 +1,6 @@
+package com.Basics;
 //Given an integer x, return true if x is a
-//        palindrome
+//        com.Basics.palindrome
 //        , and false otherwise.
 //
 //
@@ -21,5 +22,9 @@ public class palindrome {
             x=x/10;
         }
         return (temp==rev);
+    }
+    public void main(String[] args) {
+        int a=121;
+        System.out.println(isPalindrome(a));
     }
 }

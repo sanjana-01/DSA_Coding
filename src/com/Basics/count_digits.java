@@ -13,7 +13,7 @@ package com.Basics;
 //        2
 //        Explanation:
 //        1, 2 both divide 12 evenly
-public class countdigits {
+public class count_digits {
     static int evenlyDivides(int N){
         int r, c=0;
         int tmp=N;

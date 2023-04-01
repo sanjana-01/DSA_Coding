@@ -12,7 +12,7 @@ package com.Basics;//Given two integers, n and m. The task is to check the relat
 //        Explanation:
 //        4 < 8 so print 'lesser'.
 
-public class ifelse {
+public class compare {
     static String compareNM(int n, int m) {
         // code here
         if (n < m)
@@ -22,5 +22,10 @@ public class ifelse {
         else
             return "equal";
 
+    }
+
+    public static void main(String[] args) {
+        int n=3,m=4;
+        System.out.println(compareNM(n,m));
     }
 }

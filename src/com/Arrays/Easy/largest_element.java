@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays.Easy;
 /*Given an array A[] of size n. The task is to find the largest element in it.
 
 Example 1:

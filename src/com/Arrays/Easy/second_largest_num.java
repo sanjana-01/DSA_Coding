@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays.Easy;
 /**/
 public class second_largest_num {
     static int print2largest(int arr[], int n) {

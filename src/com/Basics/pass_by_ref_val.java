@@ -12,7 +12,7 @@ package com.Basics;
 //        Output:
 //        2 4
 //        Explanation: 1 was passed by value whereas 2 passed by reference.
-public class passbyrefval {
+public class pass_by_ref_val {
     static int[] passedBy(int a, int b) {
         // code here
         int []r={a+1,b+2};

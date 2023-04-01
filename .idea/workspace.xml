@@ -1,29 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="" />
+    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/leaders_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/longest_subarray_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/majority_element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rearrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/stock_buy_sell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/check_array_sorted_rotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/check_array_sorted_rotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/intersect_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/intersect_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/largest_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/largest_element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/linear_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/linear_search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/max_consecutive_ones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/max_consecutive_ones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/missing_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/missing_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/move_zeros_to_end.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/move_zeros_to_end.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/remove_dupl_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/rotate_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/rotate_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/row_with_max_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/row_with_max_1s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/search_2d_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/search_2d_matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/second_largest_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/second_largest_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/single_number_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/single_number_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/union_of_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/armstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/compare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/count_digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/count_digits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/for_loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/for_loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Basics/pass_by_ref_val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/pass_by_ref_val.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Recursion/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Recursion/fibonacci.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2LvEo7EfL7Hi5vWuu68YIGNVJ3U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19 (2)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/Basics" />
+      <recent name="$PROJECT_DIR$/src/com/Recursion" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.Arrays.Medium" />
+      <recent name="com.Arrays.M" />
+      <recent name="com.Arrays.Easy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.rotate_matrix">
+    <configuration name="leaders_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.leaders_array" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.longest_sequence" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rotate_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.rotate_matrix" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stock_buy_sell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.Arrays.Medium.stock_buy_sell" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.two_sum" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.rotate_matrix" />
+        <item itemvalue="Application.longest_sequence" />
+        <item itemvalue="Application.leaders_array" />
+        <item itemvalue="Application.two_sum" />
+        <item itemvalue="Application.stock_buy_sell" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,7 +171,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676743328379</updated>
+      <workItem from="1676743330298" duration="11604000" />
+      <workItem from="1676990860129" duration="4000" />
+      <workItem from="1676993639704" duration="6603000" />
+      <workItem from="1677331952236" duration="27078000" />
+      <workItem from="1677494933590" duration="22591000" />
+      <workItem from="1677695974229" duration="88799000" />
+      <workItem from="1679117160108" duration="14146000" />
+      <workItem from="1679549866210" duration="92000" />
+      <workItem from="1679549974697" duration="11008000" />
+      <workItem from="1679970727983" duration="10082000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Sorting/bubble_sort.java</url>
+          <line>4</line>
+          <properties class="com.Sorting.bubble_sort" method="bubble_sort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Sorting/insertion_sort.java</url>
+          <line>3</line>
+          <properties class="com.Sorting.insertion_sort" method="ins_sort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java</url>
+          <line>26</line>
+          <properties class="com.Arrays.Medium.Arrays.Easy.remove_dupl_sorted_array" method="removeDuplicatesv1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Easycodes/climbing_stairs.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

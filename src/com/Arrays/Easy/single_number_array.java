@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays.Easy;
 import java.util.*;
 /*Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 

@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays.Easy;
 /*Given a boolean 2D array of n x m dimensions where each row is sorted. Find the 0-based index of the first row that has the maximum number of 1's.
 
 Example 1:
@@ -15,7 +15,7 @@ indexing).*/
 public class row_with_max_1s {
     static int rowWithMax1s(int arr[][], int n, int m) {
         // code here
-        int c=0,index=0,max=0;
+        int c=0,Maxindex=0,max=0;
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 if(arr[i][j]==1)
@@ -23,10 +23,10 @@ public class row_with_max_1s {
             }
             if(c>max){                  // if count is greater than max and assign current i to get index
                 max=c;
-                index=i;
+                Maxindex=i;
             }
         }
-        return index;
+        return Maxindex;
     }
 
     public static void main(String[] args) {
