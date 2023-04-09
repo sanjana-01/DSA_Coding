@@ -1,4 +1,5 @@
 package com.Arrays.Medium;
+import java.util.*;
 /*Given an array of integers nums and an integer target, return indices of the two numbers such
  that they add up to target.
         You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -12,17 +13,28 @@ package com.Arrays.Medium;
         */
 public class two_sum {
     static int[] twoSum(int[] nums, int target) {
-        int r[] = new int[2];
+//        int r[] = new int[2];
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[i] + nums[j] == target) {          // if sum of two elem is target, retrieve its i and j
+//                    r[0] = i;
+//                    r[1] = j;
+//                }
+//            }
+//        }
+//        return r;
+//    }
+        int arr[] = new int[2];
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {          // if sum of two elem is target, retrieve its i and j
-                    r[0] = i;
-                    r[1] = j;
-                }
+            if (map.containsKey(target - nums[i])) {
+                arr[0] = map.get(target - nums[i]);
+                arr[1] = i;
             }
-        }
-        return r;
+        map.put(nums[i], i);
     }
+    return arr;
+}
 
     public static void main(String[] args) {
         int[] a={2,7,11,15};

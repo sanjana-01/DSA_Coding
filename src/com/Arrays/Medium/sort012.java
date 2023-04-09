@@ -45,7 +45,6 @@ public class sort012 {
         }
         return arr;
     }
-
     public static void main(String[] args) {
         int a[]={2,0,1,0,2};
         sort_num(a);
@@ -53,3 +52,4 @@ public class sort012 {
         System.out.print(i+" ");
     }
 }
+

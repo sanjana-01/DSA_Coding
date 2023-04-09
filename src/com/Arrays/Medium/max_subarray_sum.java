@@ -13,21 +13,29 @@ Approach 2 : using sliding window technique  O(N)
 Approach 3 : kadanes algo
 */
 public class max_subarray_sum {
-    static int subarray_sum(int[] arr,int n) {
-        int max=0;
-        for (int i = 0; i < n; i++) {
-            int sum = 0;
-            for (int j = i; j < n; j++) {
-                sum += arr[j];
-                if (sum > max)
-                    max = sum;
-            }
+    static int subarray_sum(int[] nums,int n) {
+//        int max=0;
+//        for (int i = 0; i < n; i++) {
+//            int sum = 0;
+//            for (int j = i; j < n; j++) {
+//                sum += arr[j];
+//                if (sum > max)
+//                    max = sum;
+//            }
+//        }
+//        return max;
+//    }
+        int maxSum = nums[0];
+        int sum = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            sum = Math.max(sum + nums[i], nums[i]);
+            maxSum = Math.max(maxSum, sum);
         }
-        return max;
+        return maxSum;
     }
 
     public static void main(String[] args) {
-        int a[] = {-2, -5, 6, -2, -3, 1, 5, -6};
+        int a[] = {5,-4,1,-7,8,1};
         int n=a.length;
         System.out.println(subarray_sum(a,n));
     }

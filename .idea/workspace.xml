@@ -4,38 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/leaders_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/longest_subarray_sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/majority_element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rearrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/stock_buy_sell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="adding arrays easy and medium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/check_array_sorted_rotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/check_array_sorted_rotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/intersect_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/intersect_arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/largest_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/largest_element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/linear_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/linear_search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/max_consecutive_ones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/max_consecutive_ones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/missing_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/missing_num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/move_zeros_to_end.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/move_zeros_to_end.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/remove_dupl_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/rotate_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/rotate_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/row_with_max_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/row_with_max_1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/search_2d_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/search_2d_matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/second_largest_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/second_largest_num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/single_number_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/single_number_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/union_of_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/armstrong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/count_digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/count_digits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/for_loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/for_loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Basics/pass_by_ref_val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Basics/pass_by_ref_val.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Recursion/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Recursion/fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/sort012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/sort012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +63,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.rotate_matrix">
-    <configuration name="leaders_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.leaders_array" />
+    <configuration name="for_loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Basics.for_loop" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_to_zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.matrix_to_zero" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longest_sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.longest_sequence" />
+    <configuration name="max_subarray_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.max_subarray_sum" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remove_dupl_sorted_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Easy.remove_dupl_sorted_array" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stock_buy_sell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.Arrays.Medium.stock_buy_sell" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.Arrays.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.two_sum" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.rotate_matrix" />
-        <item itemvalue="Application.longest_sequence" />
-        <item itemvalue="Application.leaders_array" />
-        <item itemvalue="Application.two_sum" />
-        <item itemvalue="Application.stock_buy_sell" />
+        <item itemvalue="Application.matrix_to_zero" />
+        <item itemvalue="Application.for_loop" />
+        <item itemvalue="Application.remove_dupl_sorted_array" />
+        <item itemvalue="Application.max_subarray_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -180,8 +155,24 @@
       <workItem from="1679117160108" duration="14146000" />
       <workItem from="1679549866210" duration="92000" />
       <workItem from="1679549974697" duration="11008000" />
-      <workItem from="1679970727983" duration="10082000" />
+      <workItem from="1679970727983" duration="18347000" />
+      <workItem from="1680691260227" duration="11280000" />
     </task>
+    <task id="LOCAL-00001" summary="adding arrays easy and medium">
+      <created>1680343652698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343652698</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding arrays easy and medium">
+      <created>1680343824331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343824331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +188,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding arrays easy and medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding arrays easy and medium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,13 +215,13 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java</url>
-          <line>26</line>
-          <properties class="com.Arrays.Medium.Arrays.Easy.remove_dupl_sorted_array" method="removeDuplicatesv1">
+          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java</url>
+          <line>14</line>
+          <properties class="com.Arrays.Medium.two_sum" method="twoSum">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/Easycodes/climbing_stairs.java</url>
@@ -234,9 +229,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

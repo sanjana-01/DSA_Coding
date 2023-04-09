@@ -15,7 +15,8 @@ public class rotate_matrix {
         int rotate[][] = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                rotate[j][n - i - 1] = matrix[i][j];        //place first row as last column and so on
+                rotate[j][n - 1 - i] = matrix[i][j];        //place first row as last column and so on
+                //every i is converting to (n-1)-i  for j and every j is converting to i
             }
         }
         return rotate;
