@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="adding arrays easy and medium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rotate_matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/sort012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/sort012.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.rotate_matrix">
+  <component name="RunManager" selected="Application.two_sum">
     <configuration name="for_loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Basics.for_loop" />
       <module name="Coding" />
@@ -78,19 +74,6 @@
     </configuration>
     <configuration name="matrix_to_zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.matrix_to_zero" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="max_subarray_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.max_subarray_sum" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.two_sum" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.two_sum" />
         <item itemvalue="Application.rotate_matrix" />
         <item itemvalue="Application.matrix_to_zero" />
         <item itemvalue="Application.for_loop" />
         <item itemvalue="Application.remove_dupl_sorted_array" />
-        <item itemvalue="Application.max_subarray_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +152,12 @@
       <workItem from="1679549866210" duration="92000" />
       <workItem from="1679549974697" duration="11008000" />
       <workItem from="1679970727983" duration="18347000" />
-      <workItem from="1680691260227" duration="11280000" />
+      <workItem from="1680691260227" duration="12322000" />
+      <workItem from="1681018215019" duration="19345000" />
+      <workItem from="1681209461234" duration="69000" />
+      <workItem from="1681209538124" duration="31000" />
+      <workItem from="1681209580707" duration="367000" />
+      <workItem from="1681209966480" duration="6909000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680343824331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding arrays easy and medium">
+      <created>1681017053004</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681017053004</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,24 +222,10 @@
           </properties>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/two_sum.java</url>
-          <line>14</line>
-          <properties class="com.Arrays.Medium.two_sum" method="twoSum">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/Easycodes/climbing_stairs.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Arrays/Medium/max_subarray_sum.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
