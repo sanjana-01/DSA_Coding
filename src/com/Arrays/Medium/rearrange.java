@@ -35,8 +35,8 @@ public class rearrange {
 
     public static void main(String[] args) {
         int a[]={3,1,-2,-5,2,-4};
-        rearrange_num(a);
-        for(int i:a)
+        int[] r=rearrange_num(a);
+        for(int i:r)
         System.out.print(i+" ");
 
         }
