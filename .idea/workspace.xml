@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="adding arrays easy and medium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/majority_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/majority_element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/rearrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/rearrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +60,9 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pascal_triangle">
-    <configuration name="majority_element3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.majority_element3" />
+  <component name="RunManager" selected="Application.reverse_pairs">
+    <configuration name="count_inversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.count_inversions" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -73,21 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="next_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.next_permutation" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pascal_triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.pascal_triangle" />
+    <configuration name="max_product_subarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.max_product_subarray" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rearrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.rearrange" />
+    <configuration name="merge_sorted_without_space" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.merge_sorted_without_space" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="PATTERN" value="com.Arrays.Hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spiral_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Medium.spiral_matrix" />
+    <configuration name="repeating_missing_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.repeating_missing_num" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Medium.*" />
+          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.reverse_pairs" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Arrays.Hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pascal_triangle" />
-        <item itemvalue="Application.majority_element3" />
-        <item itemvalue="Application.rearrange" />
-        <item itemvalue="Application.spiral_matrix" />
-        <item itemvalue="Application.next_permutation" />
+        <item itemvalue="Application.reverse_pairs" />
+        <item itemvalue="Application.repeating_missing_num" />
+        <item itemvalue="Application.merge_sorted_without_space" />
+        <item itemvalue="Application.count_inversions" />
+        <item itemvalue="Application.max_product_subarray" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,12 @@
       <workItem from="1681209461234" duration="69000" />
       <workItem from="1681209538124" duration="31000" />
       <workItem from="1681209580707" duration="367000" />
-      <workItem from="1681209966480" duration="27708000" />
+      <workItem from="1681209966480" duration="63521000" />
+      <workItem from="1682330180434" duration="23000" />
+      <workItem from="1682330382989" duration="19000" />
+      <workItem from="1682420655128" duration="46290000" />
+      <workItem from="1683012960652" duration="14896000" />
+      <workItem from="1686578115391" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681321290494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding arrays easy and medium">
+      <created>1681598974338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681598974338</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +247,11 @@
           <url>file://$PROJECT_DIR$/src/com/Easycodes/climbing_stairs.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Arrays/Hard/merge_sorted_without_space.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

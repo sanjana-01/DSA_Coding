@@ -40,7 +40,7 @@ public class remove_dupl_sorted_array {
 
     public static void main(String[] args) {
         int a[]={1,1,2,2,3,3,4,4};
-        removeDuplicatesv1(a);
+        removeDuplicates(a);
         for(int i:a)
         System.out.print(i+" ");
     }

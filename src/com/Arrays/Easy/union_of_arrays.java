@@ -10,7 +10,10 @@ n = 5, arr1[] = {1, 2, 3, 4, 5}
 m = 3, arr2 [] = {1, 2, 3}
 Output: 1 2 3 4 5
 Explanation: Distinct elements including
-both the arrays are: 1 2 3 4 5.*/
+both the arrays are: 1 2 3 4 5.
+
+O(nlogn1)+O(nlogn2)+O(n1+n2) --> nlogn for adding into set and for returning it takes n1+n2
+*/
 
 public class union_of_arrays {
     public static void main(String[] args) {
