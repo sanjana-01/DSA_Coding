@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="adding arrays easy and medium">
+    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="adding arrays medium and hard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/remove_dupl_sorted_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Easy/union_of_arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Arrays/Medium/matrix_to_zero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +57,13 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reverse_pairs">
-    <configuration name="count_inversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.count_inversions" />
+  <component name="RunManager" selected="Application.min_days_for_bouquets">
+    <configuration name="book_allocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.book_allocation" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="PATTERN" value="com.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_product_subarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.max_product_subarray" />
+    <configuration name="kth_element_sorted_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.kth_element_sorted_array" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="PATTERN" value="com.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="merge_sorted_without_space" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.merge_sorted_without_space" />
+    <configuration name="median_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.median_matrix" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="PATTERN" value="com.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="repeating_missing_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.repeating_missing_num" />
+    <configuration name="median_sorted_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.median_sorted_arrays" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="PATTERN" value="com.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverse_pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Arrays.Hard.reverse_pairs" />
+    <configuration name="min_days_for_bouquets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.min_days_for_bouquets" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Arrays.Hard.*" />
+          <option name="PATTERN" value="com.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.reverse_pairs" />
-        <item itemvalue="Application.repeating_missing_num" />
-        <item itemvalue="Application.merge_sorted_without_space" />
-        <item itemvalue="Application.count_inversions" />
-        <item itemvalue="Application.max_product_subarray" />
+        <item itemvalue="Application.min_days_for_bouquets" />
+        <item itemvalue="Application.median_matrix" />
+        <item itemvalue="Application.kth_element_sorted_array" />
+        <item itemvalue="Application.median_sorted_arrays" />
+        <item itemvalue="Application.book_allocation" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +161,7 @@
       <workItem from="1682330382989" duration="19000" />
       <workItem from="1682420655128" duration="46290000" />
       <workItem from="1683012960652" duration="14896000" />
-      <workItem from="1686578115391" duration="417000" />
+      <workItem from="1686578115391" duration="101054000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -201,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681598974338</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding arrays easy and medium">
+      <created>1686578705551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686578705551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding arrays medium and hard">
+      <created>1686578890893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686578890893</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding arrays easy and medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding arrays easy and medium" />
+    <MESSAGE value="adding arrays medium and hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding arrays medium and hard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
