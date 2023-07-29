@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs basics">
+    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +57,22 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.adjlist">
-    <configuration name="adjlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.adjlist" />
+  <component name="RunManager" selected="Application.surrounded_regions">
+    <configuration name="cycle_detection_dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.cycle_detection_dfs" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.dfs" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="adjmatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.adjmatrix" />
+    <configuration name="distanceofnearestcellhaaving01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.distanceofnearestcellhaaving01" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.Basics.*" />
+          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.bfs" />
+    <configuration name="number_of_province" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_province" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.Basics.*" />
+          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="counting_graphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.counting_graphs" />
+    <configuration name="surrounded_regions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.surrounded_regions" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="painter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BinarySearch.painter" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.BinarySearch.*" />
+          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.adjlist" />
-        <item itemvalue="Application.adjmatrix" />
-        <item itemvalue="Application.painter" />
-        <item itemvalue="Application.bfs" />
-        <item itemvalue="Application.counting_graphs" />
+        <item itemvalue="Application.surrounded_regions" />
+        <item itemvalue="Application.distanceofnearestcellhaaving01" />
+        <item itemvalue="Application.number_of_province" />
+        <item itemvalue="Application.dfs" />
+        <item itemvalue="Application.cycle_detection_dfs" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,8 @@
       <workItem from="1682330382989" duration="19000" />
       <workItem from="1682420655128" duration="46290000" />
       <workItem from="1683012960652" duration="14896000" />
-      <workItem from="1686578115391" duration="140786000" />
+      <workItem from="1686578115391" duration="176794000" />
+      <workItem from="1689951618276" duration="87784000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -240,7 +241,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689499324289</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="graphs basics">
+      <created>1689577137317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689577137317</updated>
+    </task>
+    <task id="LOCAL-00013" summary="binary search">
+      <created>1689577184287</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689577184287</updated>
+    </task>
+    <task id="LOCAL-00014" summary="graphs">
+      <created>1690106944606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690106944606</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,9 +282,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding arrays easy and medium" />
     <MESSAGE value="adding arrays medium and hard" />
-    <MESSAGE value="binary search" />
     <MESSAGE value="graphs basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphs basics" />
+    <MESSAGE value="binary search" />
+    <MESSAGE value="graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
