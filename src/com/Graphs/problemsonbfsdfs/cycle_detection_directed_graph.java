@@ -1,7 +1,7 @@
 package com.Graphs.problemsonbfsdfs;
 import java.util.*;
 public class cycle_detection_directed_graph {
-    private boolean dfsCheck(int node, ArrayList<ArrayList<Integer>> adj, int[] visited, int[] currentPathVisited) {
+    private static boolean dfsCheck(int node, ArrayList<ArrayList<Integer>> adj, int[] visited, int[] currentPathVisited) {
         visited[node]=1;
         currentPathVisited[node]=1;
 

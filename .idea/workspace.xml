@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/cycle_detection_directed_graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/cycle_detection_directed_graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/number_of_enclaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/number_of_enclaves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +59,9 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.surrounded_regions">
-    <configuration name="cycle_detection_dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.cycle_detection_dfs" />
+  <component name="RunManager" selected="Application.number_of_enclaves">
+    <configuration name="distanceofnearestcellhaaving01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.distanceofnearestcellhaaving01" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -71,21 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Basics.dfs" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="distanceofnearestcellhaaving01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.distanceofnearestcellhaaving01" />
+    <configuration name="number_of_enclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_enclaves" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="word_ladder_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.word_ladder_1" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.number_of_enclaves" />
+        <item itemvalue="Application.word_ladder_1" />
         <item itemvalue="Application.surrounded_regions" />
         <item itemvalue="Application.distanceofnearestcellhaaving01" />
         <item itemvalue="Application.number_of_province" />
-        <item itemvalue="Application.dfs" />
-        <item itemvalue="Application.cycle_detection_dfs" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,8 @@
       <workItem from="1682420655128" duration="46290000" />
       <workItem from="1683012960652" duration="14896000" />
       <workItem from="1686578115391" duration="176794000" />
-      <workItem from="1689951618276" duration="87784000" />
+      <workItem from="1689951618276" duration="107010000" />
+      <workItem from="1690784815606" duration="31668000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -262,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690106944606</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="graphs">
+      <created>1690600929046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690600929046</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

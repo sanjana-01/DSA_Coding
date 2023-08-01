@@ -1,5 +1,7 @@
 package com.Graphs.problemsonbfsdfs;
 import java.util.*;
+
+// TC : O(N *M)
 public class number_of_enclaves {
     private static class Pair {
         int row;
@@ -42,7 +44,7 @@ public class number_of_enclaves {
                 int ncol = col + dcol[i];
 
                 if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m &&
-                        visited[nrow][ncol] == 0 && grid[nrow][ncol] == 1) {            // if it's visted and it has the value 1
+                        visited[nrow][ncol] == 0 && grid[nrow][ncol] == 1) {            // if it's visted and land has the value 1
                                                                                         //   add to queue pair and mark it as visited
                     pendingOnes.add(new Pair(nrow, ncol));
                     visited[nrow][ncol] = 1;
