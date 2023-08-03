@@ -1,5 +1,6 @@
 package com.Graphs.problemsonbfsdfs;
 import java.util.*;
+// TC -O(V + 2E), Where V = Vertices, 2E is for total degrees as we traverse all adjacent nodes
 public class bipartite_graph {
     public boolean checkIsBipartiteDFS(int currentNode ,int col ,ArrayList<ArrayList<Integer>>adj ,int[] colour){
         colour[currentNode]=col;
