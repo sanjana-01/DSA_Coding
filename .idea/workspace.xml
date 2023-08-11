@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/cycle_detection_directed_graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/cycle_detection_directed_graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/number_of_enclaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/problemsonbfsdfs/number_of_enclaves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,20 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.number_of_enclaves">
+  <component name="RunManager" selected="Application.course_schedule_2">
+    <configuration name="course_schedule_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.course_schedule_2" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="distanceofnearestcellhaaving01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.distanceofnearestcellhaaving01" />
       <module name="Coding" />
@@ -73,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="number_of_enclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_enclaves" />
+    <configuration name="kahn_algo_toposort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.kahn_algo_toposort" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_of_distinct_islands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_distinct_islands" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -86,38 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="number_of_province" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_province" />
+    <configuration name="topologicalsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.topologicalsort" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="surrounded_regions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.surrounded_regions" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="word_ladder_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.word_ladder_1" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
+          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.number_of_enclaves" />
-        <item itemvalue="Application.word_ladder_1" />
-        <item itemvalue="Application.surrounded_regions" />
+        <item itemvalue="Application.course_schedule_2" />
+        <item itemvalue="Application.kahn_algo_toposort" />
+        <item itemvalue="Application.topologicalsort" />
+        <item itemvalue="Application.number_of_distinct_islands" />
         <item itemvalue="Application.distanceofnearestcellhaaving01" />
-        <item itemvalue="Application.number_of_province" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,10 @@
       <workItem from="1683012960652" duration="14896000" />
       <workItem from="1686578115391" duration="176794000" />
       <workItem from="1689951618276" duration="107010000" />
-      <workItem from="1690784815606" duration="31668000" />
+      <workItem from="1690784815606" duration="93559000" />
+      <workItem from="1691388327110" duration="28101000" />
+      <workItem from="1691566336067" duration="37000" />
+      <workItem from="1691566391783" duration="29630000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -272,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690600929046</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="graphs">
+      <created>1690901619412</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690901619412</updated>
+    </task>
+    <task id="LOCAL-00017" summary="graphs">
+      <created>1691080537104</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691080537104</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
