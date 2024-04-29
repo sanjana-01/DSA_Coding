@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/rows_with_max_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/rows_with_max_1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/search_2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/search_2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/search_row_col_2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/search_row_col_2d.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,7 @@
       <workItem from="1697425777853" duration="23484000" />
       <workItem from="1703788192845" duration="64000" />
       <workItem from="1704955743789" duration="236929000" />
-      <workItem from="1714415784632" duration="2889000" />
+      <workItem from="1714415784632" duration="3365000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -321,7 +318,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691754450583</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="graphs">
+      <option name="closed" value="true" />
+      <created>1714418805814</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714418805814</updated>
+    </task>
+    <task id="LOCAL-00020" summary="graphs">
+      <option name="closed" value="true" />
+      <created>1714418889275</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714418889275</updated>
+    </task>
+    <task id="LOCAL-00021" summary="graphs">
+      <option name="closed" value="true" />
+      <created>1714418968058</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714418968058</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
