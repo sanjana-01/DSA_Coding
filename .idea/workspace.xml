@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="easy codes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +188,7 @@
       <workItem from="1697425777853" duration="23484000" />
       <workItem from="1703788192845" duration="64000" />
       <workItem from="1704955743789" duration="236929000" />
-      <workItem from="1714415784632" duration="3365000" />
+      <workItem from="1714415784632" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -342,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714418968058</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="easy codes">
+      <option name="closed" value="true" />
+      <created>1714419345363</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714419345363</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +374,8 @@
     <MESSAGE value="graphs basics" />
     <MESSAGE value="binary search" />
     <MESSAGE value="graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphs" />
+    <MESSAGE value="easy codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="easy codes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
