@@ -1,0 +1,97 @@
+def STATUS = 'STARTED'
+
+stage('Process Raw Data') {
+
+        build job: 'EUCLID_NNA_RAW_GET', parameters: [booleanParam(name: 'TIME_BASED', value: params.TIME_BASED)]
+}
+
+
+pipeline {
+        agent any
+
+        stages {
+        stage('Notify on Teams') {
+        steps {
+        script {
+        sh """
+        curl --location --request POST 'https://globalcdk.webhook.office.com/webhookb2/b6153412-b686-4b94-82f6-302ea0305d2f@2916a955-0360-416d-ba9a-1608933b9065/IncomingWebhook/bafbe415a1f1419fbe41dbe171cf7fe3/957ca6f8-c77e-46b3-8f8c-a7d4506a5b19' \
+        --header 'Content-Type: application/json' \
+        --data-raw '{
+        "text": "Rawget for NNA-EUCLID has been $STATUS"
+}'
+"""
+}
+}
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def STATUS = 'STARTED'
+
+        stage('Process Raw Data') {
+build job: 'EUCLID_NNA_RAW_GET', parameters: [booleanParam(name: 'TIME_BASED', value: params.TIME_BASED)]
+}
+
+pipeline {
+agent any
+
+stages {
+stage('Notify on Teams - Success') {
+steps {
+script {
+if (currentBuild.result == '1') {
+sendTeamsNotification('Job Succeeded', 'The Jenkins job raw_get has succeeded.')
+}
+}
+}
+}
+
+
+
+stage('Notify on Teams - Failure') {
+steps {
+script {
+if (currentBuild.result != '1') {
+sendTeamsNotification('Job Failed', 'The Jenkins job raw_get has failed.')
+}
+}
+}
+}
+}
+}
+
+
+
+def sendTeamsNotification(String title, String message) {
+script {
+sh """
+curl -X POST -H 'Content-Type: application/json' -d '{
+"text": "$message"
+}' 'https://globalcdk.webhook.office.com/webhookb2/b6153412-b686-4b94-82f6-302ea0305d2f@2916a955-0360-416d-ba9a-1608933b9065/IncomingWebhook/bafbe415a1f1419fbe41dbe171cf7fe3/957ca6f8-c77e-46b3-8f8c-a7d4506a5b19'
+"""
+}
+}

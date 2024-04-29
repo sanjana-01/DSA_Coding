@@ -1,0 +1,61 @@
+pipeline {
+  agent any
+
+  stages {
+  stage('Build') {
+  steps {
+  build job: 'EUCLID_NNA_RAW_GET', parameters: [booleanParam(name: 'TIME_BASED', value: params.TIME_BASED)]
+}
+}
+}
+
+post {
+always {
+// Send notification when job starts
+script {
+sendNotificationToTeams("Rawget Job Started")
+}
+}
+
+success {
+// Send notification when job succeeds
+script {
+sendNotificationToTeams("Rawget Job Succeeded")
+}
+}
+
+failure {
+// Send notification when job fails
+script {
+sendNotificationToTeams("Rawget Job Failed")
+}
+}
+}
+}
+
+
+def sendNotificationToTeams(String message) {
+def jenkinsUrl = 'http://dw-jenkins-dev-1:8080/view/NNA/'
+def jobName = 'EUCLID_NNA_RAW_GET_TEST'
+def buildNumber = env.BUILD_NUMBER
+def buildUrl = "${jenkinsUrl}/job/${jobName}/${buildNumber}/"
+def teamsWebhookUrl = "https://globalcdk.webhook.office.com/webhookb2/b6153412-b686-4b94-82f6-302ea0305d2f@2916a955-0360-416d-ba9a-1608933b9065/IncomingWebhook/bafbe415a1f1419fbe41dbe171cf7fe3/957ca6f8-c77e-46b3-8f8c-a7d4506a5b19"
+sendNotificationToTeams("Build URL: ${buildUrl}")
+def payload = """
+{
+"title": "Jenkins Job Notification",
+"text": "${message}"
+}
+"""
+
+try {
+sh """
+curl -X POST \
+-H 'Content-type: application/json' \
+--data '${payload}' \
+${teamsWebhookUrl}
+"""
+} catch (Exception e) {
+echo "Failed to send notification to Teams: ${e}"
+}
+}
