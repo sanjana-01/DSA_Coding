@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/rows_with_max_1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/rows_with_max_1s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/search_2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/search_2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BinarySearch/search_row_col_2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BinarySearch/search_row_col_2d.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -25,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2LvEo7EfL7Hi5vWuu68YIGNVJ3U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -33,19 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19 (2)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19 (2)",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/Basics" />
@@ -57,9 +66,22 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.course_schedule_2">
-    <configuration name="course_schedule_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.course_schedule_2" />
+  <component name="RunManager" selected="Application.flyod_warshall">
+    <configuration name="bellman_ford" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.ShortestPathproblems.bellman_ford" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.ShortestPathproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eventual_safe_state" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.eventual_safe_state" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +93,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="distanceofnearestcellhaaving01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.distanceofnearestcellhaaving01" />
+    <configuration name="flyod_warshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.ShortestPathproblems.flyod_warshall" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphs.ShortestPathproblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_of_province" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_province" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
@@ -84,38 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kahn_algo_toposort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.kahn_algo_toposort" />
+    <configuration name="shortest_path_in_UG_weights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphs.ShortestPathproblems.shortest_path_in_UG_weights" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="number_of_distinct_islands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.problemsonbfsdfs.number_of_distinct_islands" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.problemsonbfsdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="topologicalsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.topologicalsort" />
-      <module name="Coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
+          <option name="PATTERN" value="com.Graphs.ShortestPathproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +134,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.course_schedule_2" />
-        <item itemvalue="Application.kahn_algo_toposort" />
-        <item itemvalue="Application.topologicalsort" />
-        <item itemvalue="Application.number_of_distinct_islands" />
-        <item itemvalue="Application.distanceofnearestcellhaaving01" />
+        <item itemvalue="Application.flyod_warshall" />
+        <item itemvalue="Application.bellman_ford" />
+        <item itemvalue="Application.number_of_province" />
+        <item itemvalue="Application.shortest_path_in_UG_weights" />
+        <item itemvalue="Application.eventual_safe_state" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -166,7 +183,17 @@
       <workItem from="1690784815606" duration="93559000" />
       <workItem from="1691388327110" duration="28101000" />
       <workItem from="1691566336067" duration="37000" />
-      <workItem from="1691566391783" duration="29630000" />
+      <workItem from="1691566391783" duration="32654000" />
+      <workItem from="1692163817343" duration="105730000" />
+      <workItem from="1693193979416" duration="91585000" />
+      <workItem from="1694570232151" duration="22764000" />
+      <workItem from="1695119330073" duration="341000" />
+      <workItem from="1695119678765" duration="20580000" />
+      <workItem from="1697380402020" duration="2220000" />
+      <workItem from="1697425777853" duration="23484000" />
+      <workItem from="1703788192845" duration="64000" />
+      <workItem from="1704955743789" duration="236929000" />
+      <workItem from="1714415784632" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -287,11 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691080537104</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="graphs">
+      <created>1691754450583</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691754450583</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
