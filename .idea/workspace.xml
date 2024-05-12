@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="easy codes">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dp/onedimensiondp/maxnonadjacentsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dp/onedimensiondp/maxnonadjacentsum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package.json" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,7 +40,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClimbingStairs.executor": "Run",
+    "Application.climbing_stairs.executor": "Run",
+    "Application.com.dp.onedimensiondp.climbing_stairs.executor": "Run",
+    "Application.fibonacci.executor": "Run",
     "Application.flyod_warshall.executor": "Run",
+    "Application.frogjump.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -56,6 +61,9 @@
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "directory"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
 }]]></component>
@@ -71,7 +79,22 @@
       <recent name="com.Arrays.Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.flyod_warshall">
+  <component name="RunManager">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.Dynamic_Programing.Striver.OneDimensionDP.ClimbingStairs" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Dynamic_Programing.Striver.OneDimensionDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bellman_ford" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Graphs.ShortestPathproblems.bellman_ford" />
       <module name="Coding" />
@@ -85,15 +108,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eventual_safe_state" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Toposortproblems.eventual_safe_state" />
+    <configuration name="climbing_stairs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.Dynamic_Programing.Striver.OneDimensionDP.climbing_stairs" />
       <module name="Coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.Toposortproblems.*" />
+          <option name="PATTERN" value="com.Dynamic_Programing.Striver.OneDimensionDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dp.onedimensiondp.climbing_stairs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dp.onedimensiondp.climbing_stairs" />
+      <module name="Coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dp.onedimensiondp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fibonacci" />
+      <module name="Coding" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,19 +188,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.flyod_warshall" />
         <item itemvalue="Application.bellman_ford" />
         <item itemvalue="Application.number_of_province" />
         <item itemvalue="Application.shortest_path_in_UG_weights" />
-        <item itemvalue="Application.eventual_safe_state" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -199,7 +248,10 @@
       <workItem from="1703788192845" duration="64000" />
       <workItem from="1704955743789" duration="236929000" />
       <workItem from="1714415784632" duration="5216000" />
-      <workItem from="1714421043064" duration="193000" />
+      <workItem from="1714421043064" duration="1221000" />
+      <workItem from="1714504374494" duration="634000" />
+      <workItem from="1714652700819" duration="592000" />
+      <workItem from="1715490018524" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -375,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714420146132</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="easy codes">
+      <option name="closed" value="true" />
+      <created>1714421256699</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1714421256699</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
