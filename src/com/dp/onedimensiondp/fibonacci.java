@@ -41,7 +41,7 @@ public class fibonacci {
 
     }
 
-    public static int calculateFibonacciSpaceOtimised(int n) {
+    public static int calculateFibonacciSpaceOptimised(int n) {
         if (n <= 1) {
             return n;
         }
