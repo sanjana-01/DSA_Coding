@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="dynamic programming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dp/onedimensiondp/MCM/burst_balloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dp/onedimensiondp/MCM/burst_balloons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +250,7 @@
       <workItem from="1714421043064" duration="1221000" />
       <workItem from="1714504374494" duration="634000" />
       <workItem from="1714652700819" duration="592000" />
-      <workItem from="1715490018524" duration="20940000" />
+      <workItem from="1715490018524" duration="23150000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -467,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715596413732</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="dynamic programming">
+      <option name="closed" value="true" />
+      <created>1715607064882</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715607064882</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
