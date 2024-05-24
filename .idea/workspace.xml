@@ -252,6 +252,8 @@
       <workItem from="1714652700819" duration="592000" />
       <workItem from="1715490018524" duration="30645000" />
       <workItem from="1716130407711" duration="2103000" />
+      <workItem from="1716224555149" duration="4238000" />
+      <workItem from="1716372519516" duration="15094000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -515,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716131621754</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1716224638797</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716224638797</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
