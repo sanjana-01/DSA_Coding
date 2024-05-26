@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="linkedlist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/reverse_ll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/reverse_ll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +254,7 @@
       <workItem from="1715490018524" duration="30645000" />
       <workItem from="1716130407711" duration="2103000" />
       <workItem from="1716224555149" duration="4238000" />
-      <workItem from="1716372519516" duration="17660000" />
+      <workItem from="1716372519516" duration="19019000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -542,7 +542,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716571042664</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1716745550026</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1716745550026</updated>
+    </task>
+    <task id="LOCAL-00040" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1716745556264</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716745556264</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
