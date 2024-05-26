@@ -82,15 +82,10 @@ public class find_node {
             return -1;
         }
 
-
-
         public static void main(String[] args) {
 
             Node <Integer> head=createLinkedList();
             int ans=find_index(head, 40);
             System.out.println(ans);
-
-
         }
     }
-}

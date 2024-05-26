@@ -147,4 +147,3 @@ public class detect_loop_ll {
 
         }
     }
-}

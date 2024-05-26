@@ -120,7 +120,5 @@ public class palindrome_ll {
             Node <Integer> head=createLinkedList();
             System.out.println(isPalindrome(head));
 
-
         }
     }
-}

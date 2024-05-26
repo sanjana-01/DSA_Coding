@@ -33,7 +33,7 @@ public class remove_nth_node_from_back {
                 return newHead;
             }
 
-            //noW calculate resultant (one node prev to to node which is to be deleted) = cnt - n
+            //noW calculate resultant (one node prev to node which is to be deleted) = cnt - n
             int res =count-n;
             temp=head;
 
@@ -91,7 +91,6 @@ public class remove_nth_node_from_back {
 
 
         public static void main(String[] args) {
-
 
         }
     }

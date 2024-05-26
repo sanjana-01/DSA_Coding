@@ -147,9 +147,5 @@ public class even_odd {
             head=even_after_odd(head);
             print(head);
 
-
-
-
         }
     }
-}
