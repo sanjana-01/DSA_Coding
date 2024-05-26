@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="626bfc25-4de3-47df-ba92-015ed255c64a" name="Changes" comment="linkedlist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/reverse_ll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/reverse_ll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +254,7 @@
       <workItem from="1715490018524" duration="30645000" />
       <workItem from="1716130407711" duration="2103000" />
       <workItem from="1716224555149" duration="4238000" />
-      <workItem from="1716372519516" duration="15094000" />
+      <workItem from="1716372519516" duration="17660000" />
     </task>
     <task id="LOCAL-00001" summary="adding arrays easy and medium">
       <created>1680343652698</created>
@@ -525,7 +526,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716224638797</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1716571033666</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716571033666</updated>
+    </task>
+    <task id="LOCAL-00038" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1716571042664</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1716571042664</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
